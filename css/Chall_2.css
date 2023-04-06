@@ -1,0 +1,114 @@
+.attribution {
+     font-size: 11px; text-align: center; 
+    }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     }
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}     
+body {
+    background-image:url("../images/pattern-background-desktop.svg") ;
+}
+.container {
+    width: 450px;
+    height: 580px;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 20px;
+    border-radius: 15px;
+    /* overflow: hidden; */
+}
+.container .image img {
+    border-radius: 15px 15px 0 0;
+}
+.header h2 {
+    text-align: center;
+    color: rgb(22, 33, 52);
+}
+.header p {
+    text-align: center;
+    color: #777;
+}
+.heading {
+    background-color: #f6f2f2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 400px;
+    margin-left: 25px;
+    height: 90px;
+}
+.heading .image img {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.heading .salary {
+    position: relative;
+    left: 55px;
+    top: 0px;
+}
+.heading .salary h4 {
+position: relative;
+top: 5px;
+}
+.heading .salary p {
+    position: relative;
+    bottom: 5px;
+}
+.heading .image_2 img {
+    position: relative;
+    bottom: 70px;
+    left: -8px;
+}
+.heading .right {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-bottom: 38px;
+    margin-left: 120px;
+}
+.heading .right a:hover {
+    text-decoration: none;
+}
+.about .link .one {
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(27, 27, 212);
+    width: 350px;
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.about .link .one:hover {
+   transition: 0.5s;
+    background-color: #002affa8;
+}
+.about .link .one a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.about .link .two a {
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+}
+.about .link .two {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.about .link .two a:hover {
+    color: #111;
+}
